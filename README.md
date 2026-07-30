@@ -17,3 +17,25 @@ const text = document.getElementById('promo-code');
 btn.addEventListener('click', () => {
   navigator.clipboard.writeText(text.textContent);
 });
+```
+
+##✅ The Solution (HTML-First)
+With invoke-booster, your HTML becomes the single source of truth. Just use the native command and commandfor attributes:
+
+```html
+<p id="promo-code">PROMO2026</p>
+<button commandfor="promo-code" command="--copy-text">Copiar Cupom</button>
+```
+##📦 Installation
+Drop the CDN link into your <head> and you are ready to go. No build tools required.
+
+```HTML
+<script defer src="[https://cdn.jsdelivr.net/npm/invoke-booster/dist/invoke-booster.min.js](https://cdn.jsdelivr.net/npm/invoke-booster/dist/invoke-booster.min.js)"></script>
+```
+(NPM package coming soon!)
+
+##🛠️ Available Commands (V1.0)
+(List of commands will be documented here soon!)
+
+##📄 License
+MIT License © Thiago Vidal
