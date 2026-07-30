@@ -20,14 +20,14 @@ btn.addEventListener('click', () => {
 });
 ```
 
-##✅ The Solution (HTML-First)
+## ✅ The Solution (HTML-First)
 With invoke-booster, your HTML becomes the single source of truth. Just use the native command and commandfor attributes:
 
 ```html
 <p id="promo-code">PROMO2026</p>
 <button commandfor="promo-code" command="--copy-text">Copiar Cupom</button>
 ```
-##📦 Installation
+## 📦 Installation
 Drop the CDN link into your <head> and you are ready to go. No build tools required.
 
 ```HTML
@@ -35,8 +35,8 @@ Drop the CDN link into your <head> and you are ready to go. No build tools requi
 ```
 (NPM package coming soon!)
 
-##🛠️ Available Commands (V1.0)
+## 🛠️ Available Commands (V1.0)
 (List of commands will be documented here soon!)
 
-##📄 License
+## 📄 License
 MIT License © Thiago Vidal
