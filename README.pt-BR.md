@@ -1,4 +1,4 @@
-[🇺🇸 English](README.md) | [🇧🇷 Português](README.pt-BR.md)
+[🇺🇸 English](README.md) | **[🇧🇷 Português](README.pt-BR.md)**
 
 # 🚀 invoke-booster
 
@@ -21,13 +21,13 @@ btn.addEventListener('click', () => {
 });
 ```
 
-##✅ A Solução (HTML-First)Com o invoke-booster, seu HTML se torna a única fonte da verdade. Basta usar os atributos nativos command e commandfor:  
+## ✅ A Solução (HTML-First)Com o invoke-booster, seu HTML se torna a única fonte da verdade. Basta usar os atributos nativos command e commandfor:  
 
 ```html
 <p id="promo-code">PROMO2026</p>
 <button commandfor="promo-code" command="--copy-text">Copiar Cupom</button>
 ```
-##📦 Instalação
+## 📦 Instalação
 dicione o link do CDN na sua tag <head> e você está pronto para começar. Nenhuma ferramenta de build é necessária.
 
 ```HTML
@@ -35,8 +35,8 @@ dicione o link do CDN na sua tag <head> e você está pronto para começar. Nenh
 ```
 (Pacote NPM em breve!)
 
-##🛠️ Comandos Disponíveis (V1.0)
+## 🛠️ Comandos Disponíveis (V1.0)
 (A lista de comandos será documentada aqui em breve!)
 
-##📄 Licença
+## 📄 Licença
 Licença MIT © Thiago Vidal
